@@ -9,12 +9,8 @@ class IndexController extends \lithium\action\Controller {
 		return $this->render(array('layout' => false));
 	}
 
-	public function to_string() {
-		return "Hello World";
-	}
-
-	public function to_json() {
-		return $this->render(array('json' => 'Hello World'));
+	public function add() {
+		
 	}
 }
 
