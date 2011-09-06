@@ -8,5 +8,7 @@
 	<?=$this->form->field('maintance_length');?>
 	<?=$this->form->field('milage');?>
 	<?=$this->form->field('maintance_comment', array('type' => 'textarea'));?>
+	<?=$this->form->field('phone');?>
+	<?=$this->form->field('price');?>
 	<?=$this->form->submit('Submit maintance'); ?>
 <?=$this->form->end(); ?>
